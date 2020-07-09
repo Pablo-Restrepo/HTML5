@@ -1,0 +1,29 @@
+body{
+    font-family: roboto;
+        background-image: url(spiderman.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        color: #fff;
+        text-align: center;
+        font-size: 50px;
+        line-height: 3;
+    }
+a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    border-radius: 16px;
+}
+a:hover{
+    color: blue;
+    border-color: blue;
+}

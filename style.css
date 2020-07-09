@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: roboto;
+    font-size: 16px;
+}
+header{
+    width: 100%;
+    height: 650px;
+    background-image: url(spiderman.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+header .textos{
+    margin-top: 152px;
+}
+header .titulo{
+    font-size: 85px;
+}
+header .subtitulo{
+    font-size: 42px;
+    font-weight: 300px;
+    margin-bottom: 32px; 
+}
+header .boton{
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+header .boton:hover{
+    color: blue;
+    border-color: blue;
+}
+.sesgoabajo{
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 20vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+.sesgoarriba{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 20vh 100vw 0 0;
+    border-style: solid;
+    border-color: #fff  transparent transparent transparent;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+.sobre-mi{
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.nombre-completo{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.parrafo{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.contenedor .boton{
+    
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+.contenedor .boton:hover{
+    color: blue;
+    border-color: blue;
+}
+.galeria{
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+.imagenes{
+    width: 50%;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+}
+.imagens img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
